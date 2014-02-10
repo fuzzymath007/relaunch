@@ -1,0 +1,92 @@
+@media all and (max-width: 767px){
+	#sidebar{
+		background-color: #16a085;
+		position: static !important;
+		z-index: 1 !important;
+		height: auto !important;
+		width: auto !important;
+	}
+	.page-content{
+		margin-left: 0 !important;
+	}
+
+}
+
+body{
+	font-size: 13px;
+	color: #3d464d;
+}
+
+#top-image{
+	background: url('../croped-project-(2).jpg') no-repeat center fixed;
+	background-size: auto 100%;
+
+}
+#container{
+
+}
+.page-content{
+	margin-left: 100px;
+}
+
+
+
+div #top-left{
+
+	color: #fed150;
+
+}
+div #top-right{
+
+	color: #fed150;
+}
+
+
+
+.slider{
+	height:100%;
+	padding-left: 50px;
+	margin-bottom: 20px;
+}
+
+.learn-more{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	position:relative;
+	bottom:40px;
+	border-bottom-style: solid;
+}
+
+#sidebar{
+	background-color: #16a085;
+	height: 120%;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100px;
+}
+
+#sidebar li span{
+		visibility: hidden;
+	}
+
+.nav > li > a{
+	color: white;
+}
+
+
+#pi-dev{
+	background:url('../pi-clear.jpg') no-repeat center fixed;
+
+	background-size: cover;
+}
+#resume{
+	background:url('../jobtypebig.jpg') no-repeat center fixed;
+
+	background-size: cover;
+
+}
+
