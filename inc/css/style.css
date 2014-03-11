@@ -1,4 +1,4 @@
-@media all and (max-width: 767px){
+@media screen and (max-width: 767px){
 	#sidebar{
 		background-color: #16a085;
 		position: static !important;
@@ -6,6 +6,11 @@
 		height: auto !important;
 		width: auto !important;
 	}
+
+	#top-image{
+	-webkit-background-size: cover !important;
+	}
+
 	.page-content{
 		margin-left: 0 !important;
 	}
@@ -18,35 +23,35 @@ body{
 }
 
 #top-image{
-	background: url('../croped-project-(2).jpg') no-repeat center fixed;
+    height:100%;
+
+}
+
+#about{
+	background: url('../croped-project-(2) copy.jpg') no-repeat center fixed;
 	background-size: auto 100%;
 
 }
-#container{
+
+#about{
+  color: black;
+}
+
+#greating{
+margin-top: 20%;
+text-align: center;
 
 }
+
 .page-content{
-	margin-left: 100px;
-}
-
-
-
-div #top-left{
-
-	color: #fed150;
-
-}
-div #top-right{
-
-	color: #fed150;
+	padding-left: 100px;
 }
 
 
 
 .slider{
-	height:100%;
+
 	padding-left: 50px;
-	margin-bottom: 20px;
 }
 
 .learn-more{
@@ -70,23 +75,190 @@ div #top-right{
 }
 
 #sidebar li span{
-		visibility: hidden;
+		visibility:hidden;
 	}
 
 .nav > li > a{
-	color: white;
+	color:white;
 }
+
 
 
 #pi-dev{
 	background:url('../pi-clear.jpg') no-repeat center fixed;
 
-	background-size: cover;
+	background-size:cover;
 }
 #resume{
-	background:url('../jobtypebig.jpg') no-repeat center fixed;
+	background:url('../jobtype27.gif') no-repeat center fixed;
 
 	background-size: cover;
 
 }
 
+.resume_bullets{
+  display:none;
+}
+
+.resume_intro{
+  font-size: 12pt;
+}
+
+
+/* -------------------------------------
+ * timeline
+ * ------------------------------------- */
+#timeline {
+  list-style: none;
+  margin: 50px 0 30px 120px;
+  padding-left: 30px;
+  border-left: 10px solid;
+}
+#timeline li {
+  margin: 40px 0;
+  position: relative;
+}
+#timeline p {
+  margin: 0 0 15px;
+}
+
+.date {
+  margin-top: -10px;
+  top: 50%;
+  left: -158px;
+  font-size: 0.95em;
+  line-height: 20px;
+  position: absolute;
+}
+
+#projects{
+	background-color:#c8d9e6;
+	background-image: linear-gradient(white 2px, transparent 2px),
+	linear-gradient(90deg, white 2px, transparent 2px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+}
+
+.content {
+  max-height: 20px;
+  padding: 50px 20px 0;
+  position: relative;
+}
+
+.content:before {
+  border-right-color: inherit;
+  border-width: 20px;
+  top: 50%;
+  margin-top: -20px;
+}
+.content:after {
+  border-right-color: #48b379;
+  border-width: 17px;
+  top: 50%;
+  margin-top: -17px;
+}
+.content p {
+  max-height: 0;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow: hidden;
+}
+
+label {
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  top: 20px;
+  transition: transform 0.2s linear;
+}
+
+.radio {
+  display: none;
+}
+
+.radio:checked + .relative label {
+  cursor: auto;
+  transform: translateX(42px);
+}
+.radio:checked + .relative .circle {
+  background: #f98262;
+}
+.radio:checked ~ .content {
+  max-height: 180px;
+  border-color: #eee9dc;
+  margin-right: 20px;
+  transform: translateX(20px);
+  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
+}
+.radio:checked ~ .content p {
+  max-height: 200px;
+  transition: color 0.3s linear 0.3s;
+}
+
+/* -------------------------------------
+ * mobile phones (vertical version only)
+ * ------------------------------------- */
+@media screen and (max-width: 767px) {
+  #timeline {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+  #timeline li {
+    margin: 50px 0;
+  }
+
+  label {
+    width: 85%;
+    font-size: 1.1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    transform: translateX(18px);
+  }
+
+  .content {
+    padding-top: 45px;
+    border-color: #eee9dc;
+  }
+  .content:before, .content:after {
+    border: solid transparent;
+    bottom: 100%;
+  }
+  .content:before {
+    border-bottom-color: inherit;
+    border-width: 17px;
+    top: -16px;
+    left: 50px;
+    margin-left: -17px;
+  }
+  .content:after {
+    border-bottom-color: #48b379;
+    border-width: 20px;
+    top: -20px;
+    left: 50px;
+    margin-left: -20px;
+  }
+  .content p {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+
+  .circle, .date {
+    display: none;
+  }
+}
+
+#pi{
+	max-height: 50%;
+	height: auto;
+	width: auto;
+	display: block;
+	margin: 0px auto;
+}
