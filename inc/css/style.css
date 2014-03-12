@@ -12,9 +12,18 @@
 	}
 
 	.page-content{
-		margin-left: 0 !important;
+		margin-left: 0px !important;
+    margin-top: 60px !important;
 	}
+#top-image{
+    height: auto !important;
 
+}
+
+}
+
+.page-content{
+  margin-left: 100px;
 }
 
 body{
@@ -29,12 +38,24 @@ body{
 
 #about{
 	background: url('../croped-project-(2) copy.jpg') no-repeat center fixed;
-	background-size: auto 100%;
+	background-size: cover;
 
 }
 
 #about{
   color: black;
+}
+
+.learn-more{
+
+}
+
+.under_construction_alert_off{
+  display: none;
+  z-index: 2;
+}
+.under_construction_alert_on{
+z-index: 2;position: fixed;width: 100%;display: block;
 }
 
 #greating{
@@ -43,24 +64,10 @@ text-align: center;
 
 }
 
-.page-content{
-	padding-left: 100px;
-}
-
-
-
 .slider{
-
-	padding-left: 50px;
-}
-
-.learn-more{
-	margin-left: auto;
-	margin-right: auto;
-	width: 100px;
-	position:relative;
-	bottom:40px;
-	border-bottom-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
 }
 
 #sidebar{
@@ -82,7 +89,9 @@ text-align: center;
 	color:white;
 }
 
+#about_me_glifs{
 
+}
 
 #pi-dev{
 	background:url('../pi-clear.jpg') no-repeat center fixed;

@@ -27,15 +27,19 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 			</div>
 		</nav>
 		<div class="page-content">
+			<div class="alert alert-warning under_construction_alert_off">
+				<a href="#" class="close" data-dismiss="alert">&times;</a>
+				<strong>I am sorry!</strong> That future is still in development.
+			</div>
 			<div class="slider" id="top-image">
 				<div class="container"> 
 					<div class ="row">
 						<div id="greating">
-							<H1>Hi there!</H1>
-							<h3>I am Matt Chess</h3>
-							<h3>This is a site I have put together to better my knowledge of web development. While always changing, I enjoy changing and updating the front and back end as I learn new things.</h3>
-							<h4>Use the navigation to the right or scroll down the page.</h4>
-							<a href="#about" class="btn btn-default">Learn More &#9660;</a>
+							<H1>Home of Matthew Chess</H1>
+							<h2> 1/3 part Analyst, 1/3 part Developer, 1/3 part Marketer</h2>
+							<h3>I combine all those parts to make technology work for customers. Sorry C-level executives. Data drives design, efficiency drives Development and results drive Marketing.</h3>
+							<h4 class="learn-more">Use the navigation to the right or scroll down the page.</h4>
+							<a href="#about" class="btn btn-default learn-more">Learn More &#9660;</a>
 						</div>
 					</div>
 				</div>
@@ -49,14 +53,14 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 						<div class ="row">
 							<div class ="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 								<h4>My name is Matthew Chess. In June 2013, I graduated from the University of Michigan with a degree in Art History. My formal education was in the liberal arts but I learned technology on the streets(and at home). Over the years I have worked various IT positions from desktop support to web analyst. Each experience depend my understanding of IT and kept me asking more questions.</h4>
-								<h4>Learing to program was just the next step. I goto many meetups and watch a lot of online videos. Over the years I continued to press on learning more everyday.</h4>
+								<h4>My experience in web development started two years ago when I worked for an e-commence company.</h4>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="about_me_glifs">
-								<img src="inc/Linecons/PNG/Original/study.png"><h5>A graduate of the University of Michigan. If you would like to see past essays of mine click here. <button type="button" class="btn btn-default btn-xs">Link to Essays</button></h5>
-								<img src="inc/Linecons/PNG/Original/camera.png"><h5>My artistic skill might need some work but I love flexing some technical skill with a camera to take fun pictures. <button type="button" class="btn btn-default btn-xs">Link to Photo Gallery</button></h5>
-								<img src="inc/Linecons/PNG/Original/cup.png"><h5>Ok I love coffee and tea.</h5>
-								<img src="inc/Linecons/PNG/Original/display.png"><h5>I spend a lot of time with technology and love learning new things.</h5>
-								<img src="inc/Linecons/PNG/Original/data.png"><h5>Not just a user of tech, I am getting into building it as well.</h5>
+								<img src="inc/Linecons/PNG/Original/study.png"><h5>A graduate of the University of Michigan. If you would like to see past essays of mine click here. <button type="button" class="btn btn-default btn-xs under_construction">Link to Essays</button></h5>
+								<img src="inc/Linecons/PNG/Original/camera.png"><h5>My artistic skill might need some work but I love flexing some technical skill with a camera to take fun pictures. <button type="button" class="btn btn-default btn-xs under_construction">Link to Photo Gallery</button></h5>
+								<img src="inc/Linecons/PNG/Original/cup.png"><h5>Coffee and tea are like air and watter.</h5>
+								<img src="inc/Linecons/PNG/Original/display.png"><h5>You say nerd I say passionately geeky.</h5>
+								<!-- <img src="inc/Linecons/PNG/Original/data.png"><h5></h5> -->
 							</div>
 						</div>
 					</div>
@@ -110,8 +114,8 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 							</ul>
 
 						</div>
-						<div class ="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-							<p>This is my resume</p>
+						<div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<button type="button" class="btn btn-default btn-xs under_construction">Download Resume as PDF</button>
 						</div>
 					</div>
 				</div>

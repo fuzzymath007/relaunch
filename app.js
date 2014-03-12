@@ -8,3 +8,11 @@ $("li a").click(function(event){
 //The this.attr returns the href of the id containg the name when the link is clicked so I stored it as var id
 //THen I need to select my var id
 //The animate method will 
+
+$(".under_construction").click(function(){
+	$(".under_construction_alert_off").addClass('under_construction_alert_on');
+});
+
+
+
+
