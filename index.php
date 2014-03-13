@@ -29,7 +29,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 		<div class="page-content">
 			<div class="alert alert-warning under_construction_alert_off">
 				<a href="#" class="close" data-dismiss="alert">&times;</a>
-				<strong>I am sorry!</strong> That future is still in development.
+				<strong>I am sorry!</strong> That feature is still in development.
 			</div>
 			<div class="slider" id="top-image">
 				<div class="container"> 
