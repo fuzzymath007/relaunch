@@ -36,8 +36,8 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 					<div class ="row">
 						<div id="greating">
 							<H1>Home of Matthew Chess</H1>
-							<h2> 1/3 part Analyst, 1/3 part Developer, 1/3 part Marketer</h2>
-							<h3>I combine all those parts to make technology work for customers. Sorry C-level executives. Data drives design, efficiency drives Development and results drive Marketing.</h3>
+							<h2> 1/3 Analyst, 1/3 Developer, 1/3 Marketer</h2>
+							<h3>I use equal parts of each skill to craft tailored solutions to unique problems.</h3>
 							<h4 class="learn-more">Use the navigation to the right or scroll down the page.</h4>
 							<a href="#about" class="btn btn-default learn-more">Learn More &#9660;</a>
 						</div>
@@ -52,14 +52,14 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 						</div>
 						<div class ="row">
 							<div class ="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-								<h4>My name is Matthew Chess. In June 2013, I graduated from the University of Michigan with a degree in Art History. My formal education was in the liberal arts but I learned technology on the streets(and at home). Over the years I have worked various IT positions from desktop support to web analyst. Each experience depend my understanding of IT and kept me asking more questions.</h4>
-								<h4>My experience in web development started two years ago when I worked for an e-commence company.</h4>
+								<h4>My name is Matthew Chess. In June 2013, I graduated from the University of Michigan with a degree in Art History. I never found it strange a Art History major got into technology. College taught me how to think and write but I taught myself how to build and fix computers.  </h4>
+								<h4>My experience in web development started two years ago when I worked for an e-commence company. Since then I have been building and breaking my own small websites and web apps.</h4>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="about_me_glifs">
-								<img src="inc/Linecons/PNG/Original/study.png"><h5>A graduate of the University of Michigan. If you would like to see past essays of mine click here. <button type="button" class="btn btn-default btn-xs under_construction">Link to Essays</button></h5>
-								<img src="inc/Linecons/PNG/Original/camera.png"><h5>My artistic skill might need some work but I love flexing some technical skill with a camera to take fun pictures. <button type="button" class="btn btn-default btn-xs under_construction">Link to Photo Gallery</button></h5>
+								<img src="inc/Linecons/PNG/Original/study.png"><h5>A graduate of the University of Michigan. If you would like to see past essays of mine follow the link. <button type="button" class="btn btn-default btn-xs under_construction">Link to Essays</button></h5>
+								<img src="inc/Linecons/PNG/Original/camera.png"><h5>My artistic skill might need some work but I love flexing some technical skill with a camera. <button type="button" class="btn btn-default btn-xs under_construction">Link to Photo Gallery</button></h5>
 								<img src="inc/Linecons/PNG/Original/cup.png"><h5>Coffee and tea are like air and watter.</h5>
-								<img src="inc/Linecons/PNG/Original/display.png"><h5>You say nerd I say passionately geeky.</h5>
+								<img src="inc/Linecons/PNG/Original/display.png"><h5>My personal philosophy has always been Fix it until it's Broken.</h5>
 								<!-- <img src="inc/Linecons/PNG/Original/data.png"><h5></h5> -->
 							</div>
 						</div>
@@ -73,7 +73,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 							<h1>Resume <span class="resume_intro">Click a position to see past responsibilities</span></h1>
 							<h3 class="section">Work Experience</h3>
 							<h4 class="job">Marketing Intelligence Analyst, Search Optics - June 2013 to Current</h4>
-							<ul class="resume_bullets">
+							<ul class="resume_bullets_default">
 								<li>Analyzed paid and non-paid marketing data from Google Analytics, Piwik, Marin and other in-house tools</li>
 								<li>Investigated data using statical packages (R, PSPP) for regression analysis and A-B testing</li>
 								<li>Use online tools and APIs to automate monthly reporting and decrease reporting errors</li>
@@ -124,31 +124,18 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 				<div class="container">        
 					<div class ="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h1>Pi Dev </h1><h4 style="float:right;">This is a smaller project I have been working on to build a Raspberry Pi to host the temperature of my room.</h4>
+							<h1>Pi Dev </h1><h4 style="float:right;">I am working on using a raspberry pi to read and host the temperature in my room.</h4>
 							<ul id='timeline'>
 								<li class='work'>
 									<input class='radio' id='work5' name='works' type='radio' >
 									<div class="relative">
-										<label for='work5'>Soder bord</label>
+										<label for='work5'>Solder board and sensor</label>
 										<span class='date'>Step One</span>
 										<span class='circle'></span>
 									</div>
 									<div class='content'>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus 
-										</p>
-									</div>
-								</li>
-								<li class='work'>
-									<input class='radio' id='work4' name='works' type='radio'>
-									<div class="relative">
-										<label for='work4'>Text bord</label>
-										<span class='date'>Step Two</span>
-										<span class='circle'></span>
-									</div>
-									<div class='content'>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab pr
+											Lets be real I have never built anything electronic before. Getting past this step was a huge boost of confidence. I did not even burn my self!
 										</p>
 									</div>
 								</li>
@@ -161,7 +148,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 									</div>
 									<div class='content'>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obca
+											I was not sure what the best language would be to use for this project. Node JS was attractive because of the flexibility of javascript, however I have never used Node and this was not really the time to learn. Apache was much easier to get started and there was plenty of documentation online to help me.
 										</p>
 									</div>
 								</li>
@@ -174,7 +161,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 									</div>
 									<div class='content'>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias 
+											I thought this would be the most time consuming but thanks to a PHP GPIO library, reading a string from the sensor was very simple. A big thanks to ronanguilloux who created php-gpio. <a href="https://github.com/ronanguilloux/php-gpio">View their project if your interested.</a>
 										</p>
 									</div>
 								</li>
@@ -187,7 +174,7 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 									</div>
 									<div class='content'>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate
+											Current Phase: This has been my stumbling block, getting past my home router to the world wide web is harder then I thought. I am still working on it and will soon display the temperature in my house.
 										</p>
 									</div>
 								</li>
@@ -202,10 +189,18 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 							<h1>Current Projects</h1>
 							<h4>Blog</h4>
-							<h5>blog.wineflaneur.com</h5>
+							<h4>If you want to learn about something, write about it. I thought I understood jQuery's function calls until I decided to write about them. I mainly write about web development and web analytics but a rouge rant might pop up in the future.</h4>
+							<a class="btn btn-default" href="http://www.blog.wineflaneur.com">Click to view my blog.</a>
 						</div>
 						<div class ="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-							<h3>Here is a list of current projects I am working on. Many are additional features to this site.</h3>
+							<h3>Here are some other progressive enhancements I am working on...</h3>
+							<ul>
+								<li>Photo Gallery (maybe using larval)</li>
+								<li>Refactor my CSS with SASS</li>
+								<li>Add a contact form</li>
+								<li>Add academic essays to show off pretentiousness</li>
+								<li>Improve Google Analytics tagging, TRACK EVERYTHING</li>
+							</ul>
 						</div>
 					</div>
 				</div>
